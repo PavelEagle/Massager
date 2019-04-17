@@ -1,15 +1,17 @@
 header {
-  height: 66px;
-  width: 796px;
+  height: 64px;
+  width: 794px;
   color: red;
   background-color: #FFE4C4;
-  border: 3px solid black;
+  border: 3px solid #8B4513;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
+  font-family: "Pacifico", cursive;
+  color: #8B4513;
 }
 
 header .header-text {
-  font-size: 28px;
+  font-size: 24px;
   margin-left: 0;
   margin-top: 0;
   display: inline-block;
@@ -44,24 +46,29 @@ header .add-text {
 header .add-text .add-text1 {
   font-size: 15px;
   margin-left: 2px;
+  margin-bottom: 7px;
 }
 
 header .add-text .add-text2 {
   margin-left: 13px;
   font-size: 15px;
+  margin-bottom: 7px;
 }
 
 .main-content {
-  height: 400px;
-  width: 800px;
+  height: 397px;
+  width: 794px;
   background-color: #DEB887;
+  border-left: 3px solid #8B4513;
+  border-right: 3px solid #8B4513;
+  border-bottom: 3px solid #8B4513;
 }
 
 .massanger {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 400px;
+  height: 397px;
   width: 795px;
   background-color: #DEB887;
   -webkit-box-orient: vertical;
@@ -73,6 +80,7 @@ header .add-text .add-text2 {
           align-items: center;
   overflow: scroll;
   overflow-x: hidden;
+  font-family: "Acme", sans-serif;
 }
 
 .massage1 {
