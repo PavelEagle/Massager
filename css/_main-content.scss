@@ -83,6 +83,7 @@ header {
         height: 100px;
         align-items: center;
         justify-content: center;
+        border-right: 2px solid black;
 
         .creater1 {
             width: 50px;
@@ -105,11 +106,7 @@ header {
         }
     }
 
-    .vertical-line {
-        height: 100px;
-        width: 2px;
-        background-color: black;
-    }
+
 
     .text-box1 {
         width: 600px;
@@ -132,9 +129,6 @@ header {
     }
 }
 
-
-
-
 .massage2 {
     display: flex;
     height: 150px;
@@ -146,6 +140,7 @@ header {
         height: 100px;
         align-items: center;
         justify-content: center;
+        border-right: 2px solid black;
 
         .creater2 {
             width: 50px;
@@ -166,12 +161,6 @@ header {
             font-size: 16px;
             margin-left: 8px;
         }
-    }
-
-    .vertical-line {
-        height: 100px;
-        width: 2px;
-        background-color: black;
     }
 
     .text-box2 {
@@ -203,9 +192,10 @@ header {
     .info-box3 {
         display: flex;
         width: 150px;
-        height: 100px;
+        height: 105px;
         align-items: center;
         justify-content: center;
+        border-right: 2px solid black;
 
         .creater3 {
             width: 50px;
@@ -226,12 +216,6 @@ header {
             font-size: 16px;
             margin-left: 8px;
         }
-    }
-
-    .vertical-line {
-        height: 105px;
-        width: 2px;
-        background-color: black;
     }
 
     .text-box3 {
@@ -266,6 +250,7 @@ header {
         height: 100px;
         align-items: center;
         justify-content: center;
+        border-right: 2px solid black;
 
         .creater4 {
             width: 50px;
@@ -286,12 +271,6 @@ header {
             font-size: 16px;
             margin-left: 8px;
         }
-    }
-
-    .vertical-line {
-        height: 100px;
-        width: 2px;
-        background-color: black;
     }
 
     .text-box4{
@@ -326,6 +305,7 @@ header {
         height: 100px;
         align-items: center;
         justify-content: center;
+        border-right: 2px solid black;
 
         .creater5 {
             width: 50px;
@@ -346,12 +326,6 @@ header {
             font-size: 16px;
             margin-left: 8px;
         }
-    }
-
-    .vertical-line {
-        height: 100px;
-        width: 2px;
-        background-color: black;
     }
 
     .text-box5{
@@ -386,6 +360,7 @@ header {
         height: 100px;
         align-items: center;
         justify-content: center;
+        border-right: 2px solid black;
 
         .creater6 {
             width: 50px;
@@ -406,12 +381,6 @@ header {
             font-size: 16px;
             margin-left: 8px;
         }
-    }
-
-    .vertical-line {
-        height: 100px;
-        width: 2px;
-        background-color: black;
     }
 
     .text-box6 {

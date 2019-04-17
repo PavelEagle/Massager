@@ -105,6 +105,7 @@ header .add-text .add-text2 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  border-right: 2px solid black;
 }
 
 .massage1 .info-box1 .creater1 {
@@ -125,12 +126,6 @@ header .add-text .add-text2 {
 .massage1 .info-box1 .date1 {
   font-size: 16px;
   margin-left: 8px;
-}
-
-.massage1 .vertical-line {
-  height: 100px;
-  width: 2px;
-  background-color: black;
 }
 
 .massage1 .text-box1 {
@@ -173,6 +168,7 @@ header .add-text .add-text2 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  border-right: 2px solid black;
 }
 
 .massage2 .info-box2 .creater2 {
@@ -193,12 +189,6 @@ header .add-text .add-text2 {
 .massage2 .info-box2 .date2 {
   font-size: 16px;
   margin-left: 8px;
-}
-
-.massage2 .vertical-line {
-  height: 100px;
-  width: 2px;
-  background-color: black;
 }
 
 .massage2 .text-box2 {
@@ -234,13 +224,14 @@ header .add-text .add-text2 {
   display: -ms-flexbox;
   display: flex;
   width: 150px;
-  height: 100px;
+  height: 105px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  border-right: 2px solid black;
 }
 
 .massage3 .info-box3 .creater3 {
@@ -261,12 +252,6 @@ header .add-text .add-text2 {
 .massage3 .info-box3 .date3 {
   font-size: 16px;
   margin-left: 8px;
-}
-
-.massage3 .vertical-line {
-  height: 105px;
-  width: 2px;
-  background-color: black;
 }
 
 .massage3 .text-box3 {
@@ -309,6 +294,7 @@ header .add-text .add-text2 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  border-right: 2px solid black;
 }
 
 .massage4 .info-box4 .creater4 {
@@ -329,12 +315,6 @@ header .add-text .add-text2 {
 .massage4 .info-box4 .date4 {
   font-size: 16px;
   margin-left: 8px;
-}
-
-.massage4 .vertical-line {
-  height: 100px;
-  width: 2px;
-  background-color: black;
 }
 
 .massage4 .text-box4 {
@@ -377,6 +357,7 @@ header .add-text .add-text2 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  border-right: 2px solid black;
 }
 
 .massage5 .info-box5 .creater5 {
@@ -397,12 +378,6 @@ header .add-text .add-text2 {
 .massage5 .info-box5 .date5 {
   font-size: 16px;
   margin-left: 8px;
-}
-
-.massage5 .vertical-line {
-  height: 100px;
-  width: 2px;
-  background-color: black;
 }
 
 .massage5 .text-box5 {
@@ -445,6 +420,7 @@ header .add-text .add-text2 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  border-right: 2px solid black;
 }
 
 .massage6 .info-box6 .creater6 {
@@ -465,12 +441,6 @@ header .add-text .add-text2 {
 .massage6 .info-box6 .date6 {
   font-size: 16px;
   margin-left: 8px;
-}
-
-.massage6 .vertical-line {
-  height: 100px;
-  width: 2px;
-  background-color: black;
 }
 
 .massage6 .text-box6 {
