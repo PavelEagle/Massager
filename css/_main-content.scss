@@ -1,0 +1,448 @@
+header {
+    height: 66px;
+    width: 796px;
+    color: red;
+    background-color: $main-color;
+    border: 3px solid black;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+    .header-text {
+        font-size: 28px;
+        margin-left: 0;
+        margin-top: 0;
+        display: inline-block;
+    }
+    
+    .exit-button {
+        transform: scale(2,2);
+        float: right;
+        margin-top: 15px;
+        margin-right: 15px;
+        cursor: pointer;
+    }
+
+    .exit-button:hover {
+        transform: scale(2.2,2.2)
+    }
+
+    .add-text {
+        margin-left: 0;
+        margin-bottom: 0;
+        height: 32px;
+        display: flex;
+        align-items: flex-end;
+        
+        .add-text1 {
+            font-size: 15px;
+            margin-left: 2px;
+        }
+        .add-text2 {
+            margin-left: 13px;
+            font-size: 15px;
+        }
+    }
+    
+}
+
+
+.main-content {
+    height: 400px;
+    width: 800px;
+    background-color: $background-color;
+}
+
+.massanger {
+    display: flex;
+    height: 400px;
+    width: 795px;
+    background-color: $background-color;
+    flex-direction: column;
+    align-items: center;
+    overflow: scroll;
+    overflow-x: hidden; 
+}
+
+.massage1 {
+    display: flex; 
+    height: 150px;
+    width: 780px;
+    flex-wrap: wrap;
+
+    .info-box1 {
+        display: flex;
+        width: 150px;
+        height: 100px;
+        align-items: center;
+        justify-content: center;
+
+        .creater1 {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: $main-color;
+            text-align: center;
+            line-height: 50px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .creater1:hover {
+            background-color: #8B4513;
+        }
+    
+        .date1 {
+            font-size: 16px;
+            margin-left: 8px;
+        }
+    }
+
+    .vertical-line {
+        height: 100px;
+        width: 2px;
+        background-color: black;
+    }
+
+    .text-box1 {
+        width: 600px;
+        margin-top: 15px;
+        margin-left: 15px;
+        height: 60px;
+        overflow: hidden;
+        line-height: 20px;
+    }
+
+    .author1 {
+        margin-left: 7px;
+    }
+
+    .text1 {
+        margin-top: 2px;
+        height: 40px;
+        width: 600px;
+        background-color: $massage-color;
+    }
+}
+
+
+
+
+.massage2 {
+    display: flex;
+    height: 150px;
+    width: 780px;
+
+    .info-box2 {
+        display: flex;
+        width: 150px;
+        height: 100px;
+        align-items: center;
+        justify-content: center;
+
+        .creater2 {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: $main-color;
+            text-align: center;
+            line-height: 50px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .creater2:hover {
+            background-color: #8B4513;
+        }
+    
+        .date2 {
+            font-size: 16px;
+            margin-left: 8px;
+        }
+    }
+
+    .vertical-line {
+        height: 100px;
+        width: 2px;
+        background-color: black;
+    }
+
+    .text-box2 {
+        width: 600px;
+        margin-top: 15px;
+        margin-left: 15px;
+        height: 60px;
+        overflow: hidden;
+        line-height: 20px;
+    }
+
+    .author2 {
+        margin-left: 7px;
+    }
+
+    .text2 {
+        margin-top: 2px;
+        height: 40px;
+        width: 600px;
+        background-color: $massage-color;
+    }
+}
+
+.massage3 {
+    display: flex;
+    height: 150px;
+    width: 780px;
+
+    .info-box3 {
+        display: flex;
+        width: 150px;
+        height: 100px;
+        align-items: center;
+        justify-content: center;
+
+        .creater3 {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: $main-color;
+            text-align: center;
+            line-height: 50px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .creater3:hover {
+            background-color: #8B4513;
+        }
+    
+        .date3 {
+            font-size: 16px;
+            margin-left: 8px;
+        }
+    }
+
+    .vertical-line {
+        height: 105px;
+        width: 2px;
+        background-color: black;
+    }
+
+    .text-box3 {
+        width: 600px;
+        margin-top: 15px;
+        margin-left: 15px;
+        height: 90px;
+        overflow: hidden;
+        line-height: 20px;
+    }
+
+    .author3 {
+        margin-left: 7px;
+    }
+
+    .text3 {
+        margin-top: 2px;
+        height: 60px;
+        width: 600px;
+        background-color: $massage-color;
+    }
+}
+
+.massage4 {
+    display: flex;
+    height: 150px;
+    width: 780px;
+
+    .info-box4 {
+        display: flex;
+        width: 150px;
+        height: 100px;
+        align-items: center;
+        justify-content: center;
+
+        .creater4 {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: $main-color;
+            text-align: center;
+            line-height: 50px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .creater4:hover {
+            background-color: #8B4513;
+        }
+    
+        .date4 {
+            font-size: 16px;
+            margin-left: 8px;
+        }
+    }
+
+    .vertical-line {
+        height: 100px;
+        width: 2px;
+        background-color: black;
+    }
+
+    .text-box4{
+        width: 600px;
+        margin-top: 15px;
+        margin-left: 15px;
+        height: 60px;
+        overflow: hidden;
+        line-height: 20px;
+    }
+
+    .author4 {
+        margin-left: 7px;
+    }
+
+    .text4 {
+        margin-top: 2px;
+        height: 40px;
+        width: 600px;
+        background-color: $massage-color;
+    }
+}
+
+.massage5 {
+    display: flex;
+    height: 150px;
+    width: 780px;
+
+    .info-box5 {
+        display: flex;
+        width: 150px;
+        height: 100px;
+        align-items: center;
+        justify-content: center;
+
+        .creater5 {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: $main-color;
+            text-align: center;
+            line-height: 50px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .creater5:hover {
+            background-color: #8B4513;
+        }
+    
+        .date5 {
+            font-size: 16px;
+            margin-left: 8px;
+        }
+    }
+
+    .vertical-line {
+        height: 100px;
+        width: 2px;
+        background-color: black;
+    }
+
+    .text-box5{
+        width: 600px;
+        margin-top: 15px;
+        margin-left: 15px;
+        height: 60px;
+        overflow: hidden;
+        line-height: 20px;
+    }
+
+    .author5 {
+        margin-left: 7px;
+    }
+
+    .text5 {
+        margin-top: 2px;
+        height: 60px;
+        width: 600px;
+        background-color: $massage-color;
+    }
+}
+
+.massage6 {
+    display: flex;
+    height: 150px;
+    width: 780px;
+
+    .info-box6 {
+        display: flex;
+        width: 150px;
+        height: 100px;
+        align-items: center;
+        justify-content: center;
+
+        .creater6 {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: $main-color;
+            text-align: center;
+            line-height: 50px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        
+        .creater6:hover {
+            background-color: #8B4513;
+        }
+
+        .date6 {
+            font-size: 16px;
+            margin-left: 8px;
+        }
+    }
+
+    .vertical-line {
+        height: 100px;
+        width: 2px;
+        background-color: black;
+    }
+
+    .text-box6 {
+        width: 600px;
+        margin-top: 15px;
+        margin-left: 15px;
+        height: 60px;
+        overflow: hidden;
+        line-height: 20px;
+    }
+
+    .author6 {
+        margin-left: 7px;
+    }
+
+    .text6 {
+        margin-top: 2px;
+        height: 40px;
+        width: 600px;
+        background-color: $massage-color;
+    }
+}
+
+::-webkit-scrollbar { 
+    width: 10px; 
+}
+
+::-webkit-scrollbar-track-piece { 
+    background-color: $main-color;
+}
+
+::-webkit-scrollbar-thumb { 
+    height: 50px; 
+    background-color: gray; 
+    border-radius: 3px;
+}
+
+// ::-webkit-scrollbar-button {  
+//     background-color: red; 
+//     height: 10px;
+// }
+

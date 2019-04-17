@@ -1,0 +1,501 @@
+header {
+  height: 66px;
+  width: 796px;
+  color: red;
+  background-color: #FFE4C4;
+  border: 3px solid black;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+header .header-text {
+  font-size: 28px;
+  margin-left: 0;
+  margin-top: 0;
+  display: inline-block;
+}
+
+header .exit-button {
+  -webkit-transform: scale(2, 2);
+          transform: scale(2, 2);
+  float: right;
+  margin-top: 15px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+header .exit-button:hover {
+  -webkit-transform: scale(2.2, 2.2);
+          transform: scale(2.2, 2.2);
+}
+
+header .add-text {
+  margin-left: 0;
+  margin-bottom: 0;
+  height: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+header .add-text .add-text1 {
+  font-size: 15px;
+  margin-left: 2px;
+}
+
+header .add-text .add-text2 {
+  margin-left: 13px;
+  font-size: 15px;
+}
+
+.main-content {
+  height: 400px;
+  width: 800px;
+  background-color: #DEB887;
+}
+
+.massanger {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 400px;
+  width: 795px;
+  background-color: #DEB887;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.massage1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 150px;
+  width: 780px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.massage1 .info-box1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 150px;
+  height: 100px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.massage1 .info-box1 .creater1 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #FFE4C4;
+  text-align: center;
+  line-height: 50px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.massage1 .info-box1 .creater1:hover {
+  background-color: #8B4513;
+}
+
+.massage1 .info-box1 .date1 {
+  font-size: 16px;
+  margin-left: 8px;
+}
+
+.massage1 .vertical-line {
+  height: 100px;
+  width: 2px;
+  background-color: black;
+}
+
+.massage1 .text-box1 {
+  width: 600px;
+  margin-top: 15px;
+  margin-left: 15px;
+  height: 60px;
+  overflow: hidden;
+  line-height: 20px;
+}
+
+.massage1 .author1 {
+  margin-left: 7px;
+}
+
+.massage1 .text1 {
+  margin-top: 2px;
+  height: 40px;
+  width: 600px;
+  background-color: #EEE8AA;
+}
+
+.massage2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 150px;
+  width: 780px;
+}
+
+.massage2 .info-box2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 150px;
+  height: 100px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.massage2 .info-box2 .creater2 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #FFE4C4;
+  text-align: center;
+  line-height: 50px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.massage2 .info-box2 .creater2:hover {
+  background-color: #8B4513;
+}
+
+.massage2 .info-box2 .date2 {
+  font-size: 16px;
+  margin-left: 8px;
+}
+
+.massage2 .vertical-line {
+  height: 100px;
+  width: 2px;
+  background-color: black;
+}
+
+.massage2 .text-box2 {
+  width: 600px;
+  margin-top: 15px;
+  margin-left: 15px;
+  height: 60px;
+  overflow: hidden;
+  line-height: 20px;
+}
+
+.massage2 .author2 {
+  margin-left: 7px;
+}
+
+.massage2 .text2 {
+  margin-top: 2px;
+  height: 40px;
+  width: 600px;
+  background-color: #EEE8AA;
+}
+
+.massage3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 150px;
+  width: 780px;
+}
+
+.massage3 .info-box3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 150px;
+  height: 100px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.massage3 .info-box3 .creater3 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #FFE4C4;
+  text-align: center;
+  line-height: 50px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.massage3 .info-box3 .creater3:hover {
+  background-color: #8B4513;
+}
+
+.massage3 .info-box3 .date3 {
+  font-size: 16px;
+  margin-left: 8px;
+}
+
+.massage3 .vertical-line {
+  height: 105px;
+  width: 2px;
+  background-color: black;
+}
+
+.massage3 .text-box3 {
+  width: 600px;
+  margin-top: 15px;
+  margin-left: 15px;
+  height: 90px;
+  overflow: hidden;
+  line-height: 20px;
+}
+
+.massage3 .author3 {
+  margin-left: 7px;
+}
+
+.massage3 .text3 {
+  margin-top: 2px;
+  height: 60px;
+  width: 600px;
+  background-color: #EEE8AA;
+}
+
+.massage4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 150px;
+  width: 780px;
+}
+
+.massage4 .info-box4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 150px;
+  height: 100px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.massage4 .info-box4 .creater4 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #FFE4C4;
+  text-align: center;
+  line-height: 50px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.massage4 .info-box4 .creater4:hover {
+  background-color: #8B4513;
+}
+
+.massage4 .info-box4 .date4 {
+  font-size: 16px;
+  margin-left: 8px;
+}
+
+.massage4 .vertical-line {
+  height: 100px;
+  width: 2px;
+  background-color: black;
+}
+
+.massage4 .text-box4 {
+  width: 600px;
+  margin-top: 15px;
+  margin-left: 15px;
+  height: 60px;
+  overflow: hidden;
+  line-height: 20px;
+}
+
+.massage4 .author4 {
+  margin-left: 7px;
+}
+
+.massage4 .text4 {
+  margin-top: 2px;
+  height: 40px;
+  width: 600px;
+  background-color: #EEE8AA;
+}
+
+.massage5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 150px;
+  width: 780px;
+}
+
+.massage5 .info-box5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 150px;
+  height: 100px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.massage5 .info-box5 .creater5 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #FFE4C4;
+  text-align: center;
+  line-height: 50px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.massage5 .info-box5 .creater5:hover {
+  background-color: #8B4513;
+}
+
+.massage5 .info-box5 .date5 {
+  font-size: 16px;
+  margin-left: 8px;
+}
+
+.massage5 .vertical-line {
+  height: 100px;
+  width: 2px;
+  background-color: black;
+}
+
+.massage5 .text-box5 {
+  width: 600px;
+  margin-top: 15px;
+  margin-left: 15px;
+  height: 60px;
+  overflow: hidden;
+  line-height: 20px;
+}
+
+.massage5 .author5 {
+  margin-left: 7px;
+}
+
+.massage5 .text5 {
+  margin-top: 2px;
+  height: 60px;
+  width: 600px;
+  background-color: #EEE8AA;
+}
+
+.massage6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 150px;
+  width: 780px;
+}
+
+.massage6 .info-box6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 150px;
+  height: 100px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.massage6 .info-box6 .creater6 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #FFE4C4;
+  text-align: center;
+  line-height: 50px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.massage6 .info-box6 .creater6:hover {
+  background-color: #8B4513;
+}
+
+.massage6 .info-box6 .date6 {
+  font-size: 16px;
+  margin-left: 8px;
+}
+
+.massage6 .vertical-line {
+  height: 100px;
+  width: 2px;
+  background-color: black;
+}
+
+.massage6 .text-box6 {
+  width: 600px;
+  margin-top: 15px;
+  margin-left: 15px;
+  height: 60px;
+  overflow: hidden;
+  line-height: 20px;
+}
+
+.massage6 .author6 {
+  margin-left: 7px;
+}
+
+.massage6 .text6 {
+  margin-top: 2px;
+  height: 40px;
+  width: 600px;
+  background-color: #EEE8AA;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track-piece {
+  background-color: #FFE4C4;
+}
+
+::-webkit-scrollbar-thumb {
+  height: 50px;
+  background-color: gray;
+  border-radius: 3px;
+}
+/*# sourceMappingURL=style.css.map */
