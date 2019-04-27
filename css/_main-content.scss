@@ -1,4 +1,5 @@
 header {
+    position: relative;
     height: 64px;
     width: 794px;
     color: red;
@@ -11,17 +12,15 @@ header {
 
     .header-text {
         font-size: 24px;
-        margin-left: 0;
-        margin-top: 0;
         display: inline-block;
     }
     
     .exit-button {
         transform: scale(2,2);
-        float: right;
-        margin-top: 15px;
-        margin-right: 15px;
+        right: 10px;
+        top: 15px;
         cursor: pointer;
+        position: absolute;
     }
 
     .exit-button:hover {
@@ -49,45 +48,37 @@ header {
     
 }
 
-
 .main-content {
-    height: 397px;
-    width: 794px;
     background-color: $background-color;
-    border-left: 3px solid #8B4513;
-    border-right: 3px solid #8B4513;
-    border-bottom: 3px solid #8B4513;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
+    display: flex;
+    flex-direction: column;
 }
 
 .massanger {
-    display: flex;
     height: 397px;
-    width: 795px;
+    width: 794px;
     background-color: $background-color;
-    flex-direction: column;
     align-items: center;
     overflow: scroll;
     overflow-x: hidden; 
     font-family: $main-fonts;
+    border-left: 3px solid #8B4513;
+    border-right: 3px solid #8B4513;
+    border-bottom: 3px solid #8B4513;
 }
 
-.massage1 {
+.massage {
     display: flex; 
-    height: 150px;
-    width: 780px;
     flex-wrap: wrap;
 
-    .info-box1 {
+    .info-box {
         display: flex;
         width: 150px;
-        height: 100px;
         align-items: center;
         justify-content: center;
         border-right: 2px solid black;
 
-        .creater1 {
+        .creater {
             width: 50px;
             height: 50px;
             border-radius: 50%;
@@ -96,324 +87,36 @@ header {
             line-height: 50px;
             font-size: 20px;
             cursor: pointer;
-            border: 1px solid black;
         }
 
-        .creater1:hover {
+        .creater:hover {
             background-color: #8B4513;
         }
     
-        .date1 {
+        .date {
             font-size: 16px;
             margin-left: 8px;
         }
     }
 
-
-
-    .text-box1 {
-        width: 600px;
-        margin-top: 15px;
-        margin-left: 15px;
-        height: 60px;
-        overflow: hidden;
+    .text-box {
+        margin: 10px;
         line-height: 20px;
+        width: 610px;
     }
 
-    .author1 {
+    .author {
         margin-left: 7px;
     }
 
-    .text1 {
+    .text {
         margin-top: 2px;
-        height: 40px;
-        width: 600px;
-        background-color: $massage-color;
-    }
-}
-
-.massage2 {
-    display: flex;
-    height: 150px;
-    width: 780px;
-
-    .info-box2 {
-        display: flex;
-        width: 150px;
-        height: 100px;
-        align-items: center;
-        justify-content: center;
-        border-right: 2px solid black;
-
-        .creater2 {
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-            background-color: $main-color;
-            text-align: center;
-            line-height: 50px;
-            font-size: 20px;
-            cursor: pointer;
-            border: 1px solid black;
-        }
-
-        .creater2:hover {
-            background-color: #8B4513;
-        }
-    
-        .date2 {
-            font-size: 16px;
-            margin-left: 8px;
-        }
-    }
-
-    .text-box2 {
-        width: 600px;
-        margin-top: 15px;
-        margin-left: 15px;
-        height: 60px;
-        overflow: hidden;
-        line-height: 20px;
-    }
-
-    .author2 {
-        margin-left: 7px;
-    }
-
-    .text2 {
-        margin-top: 2px;
-        height: 40px;
-        width: 600px;
-        background-color: $massage-color;
-    }
-}
-
-.massage3 {
-    display: flex;
-    height: 150px;
-    width: 780px;
-
-    .info-box3 {
-        display: flex;
-        width: 150px;
-        height: 105px;
-        align-items: center;
-        justify-content: center;
-        border-right: 2px solid black;
-
-        .creater3 {
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-            background-color: $main-color;
-            text-align: center;
-            line-height: 50px;
-            font-size: 20px;
-            cursor: pointer;
-            border: 1px solid black;
-        }
-
-        .creater3:hover {
-            background-color: #8B4513;
-        }
-    
-        .date3 {
-            font-size: 16px;
-            margin-left: 8px;
-        }
-    }
-
-    .text-box3 {
-        width: 600px;
-        margin-top: 15px;
-        margin-left: 15px;
-        height: 90px;
-        overflow: hidden;
-        line-height: 20px;
-    }
-
-    .author3 {
-        margin-left: 7px;
-    }
-
-    .text3 {
-        margin-top: 2px;
-        height: 60px;
-        width: 600px;
-        background-color: $massage-color;
-    }
-}
-
-.massage4 {
-    display: flex;
-    height: 150px;
-    width: 780px;
-
-    .info-box4 {
-        display: flex;
-        width: 150px;
-        height: 100px;
-        align-items: center;
-        justify-content: center;
-        border-right: 2px solid black;
-
-        .creater4 {
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-            background-color: $main-color;
-            text-align: center;
-            line-height: 50px;
-            font-size: 20px;
-            cursor: pointer;
-            border: 1px solid black;
-        }
-
-        .creater4:hover {
-            background-color: #8B4513;
-        }
-    
-        .date4 {
-            font-size: 16px;
-            margin-left: 8px;
-        }
-    }
-
-    .text-box4{
-        width: 600px;
-        margin-top: 15px;
-        margin-left: 15px;
-        height: 60px;
-        overflow: hidden;
-        line-height: 20px;
-    }
-
-    .author4 {
-        margin-left: 7px;
-    }
-
-    .text4 {
-        margin-top: 2px;
-        height: 40px;
-        width: 600px;
-        background-color: $massage-color;
-    }
-}
-
-.massage5 {
-    display: flex;
-    height: 150px;
-    width: 780px;
-
-    .info-box5 {
-        display: flex;
-        width: 150px;
-        height: 100px;
-        align-items: center;
-        justify-content: center;
-        border-right: 2px solid black;
-
-        .creater5 {
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-            background-color: $main-color;
-            text-align: center;
-            line-height: 50px;
-            font-size: 20px;
-            cursor: pointer;
-            border: 1px solid black;
-        }
-
-        .creater5:hover {
-            background-color: #8B4513;
-        }
-    
-        .date5 {
-            font-size: 16px;
-            margin-left: 8px;
-        }
-    }
-
-    .text-box5{
-        width: 600px;
-        margin-top: 15px;
-        margin-left: 15px;
-        height: 60px;
-        overflow: hidden;
-        line-height: 20px;
-    }
-
-    .author5 {
-        margin-left: 7px;
-    }
-
-    .text5 {
-        margin-top: 2px;
-        height: 60px;
-        width: 600px;
-        background-color: $massage-color;
-    }
-}
-
-.massage6 {
-    display: flex;
-    height: 150px;
-    width: 780px;
-
-    .info-box6 {
-        display: flex;
-        width: 150px;
-        height: 100px;
-        align-items: center;
-        justify-content: center;
-        border-right: 2px solid black;
-
-        .creater6 {
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-            background-color: $main-color;
-            text-align: center;
-            line-height: 50px;
-            font-size: 20px;
-            cursor: pointer;
-            border: 1px solid black;
-        }
-        
-        .creater6:hover {
-            background-color: #8B4513;
-        }
-
-        .date6 {
-            font-size: 16px;
-            margin-left: 8px;
-        }
-    }
-
-    .text-box6 {
-        width: 600px;
-        margin-top: 15px;
-        margin-left: 15px;
-        height: 60px;
-        overflow: hidden;
-        line-height: 20px;
-    }
-
-    .author6 {
-        margin-left: 7px;
-    }
-
-    .text6 {
-        margin-top: 2px;
-        height: 40px;
-        width: 600px;
         background-color: $massage-color;
     }
 }
 
 ::-webkit-scrollbar { 
-    width: 10px; 
+    width: 6px; 
 }
 
 ::-webkit-scrollbar-track-piece { 
@@ -422,7 +125,7 @@ header {
 
 ::-webkit-scrollbar-thumb { 
     height: 50px; 
-    background-color: gray; 
+    background-color: #8B4513; 
     border-radius: 3px;
 }
 

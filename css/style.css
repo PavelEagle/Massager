@@ -1,4 +1,5 @@
 header {
+  position: relative;
   height: 64px;
   width: 794px;
   color: red;
@@ -12,18 +13,16 @@ header {
 
 header .header-text {
   font-size: 24px;
-  margin-left: 0;
-  margin-top: 0;
   display: inline-block;
 }
 
 header .exit-button {
   -webkit-transform: scale(2, 2);
           transform: scale(2, 2);
-  float: right;
-  margin-top: 15px;
-  margin-right: 15px;
+  right: 10px;
+  top: 15px;
   cursor: pointer;
+  position: absolute;
 }
 
 header .exit-button:hover {
@@ -56,51 +55,44 @@ header .add-text .add-text2 {
 }
 
 .main-content {
-  height: 397px;
-  width: 794px;
   background-color: #DEB887;
-  border-left: 3px solid #8B4513;
-  border-right: 3px solid #8B4513;
-  border-bottom: 3px solid #8B4513;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-}
-
-.massanger {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 397px;
-  width: 795px;
-  background-color: #DEB887;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.massanger {
+  height: 397px;
+  width: 794px;
+  background-color: #DEB887;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   overflow: scroll;
   overflow-x: hidden;
   font-family: "Acme", sans-serif;
+  border-left: 3px solid #8B4513;
+  border-right: 3px solid #8B4513;
+  border-bottom: 3px solid #8B4513;
 }
 
-.massage1 {
+.massage {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 150px;
-  width: 780px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
 
-.massage1 .info-box1 {
+.massage .info-box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   width: 150px;
-  height: 100px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -110,7 +102,7 @@ header .add-text .add-text2 {
   border-right: 2px solid black;
 }
 
-.massage1 .info-box1 .creater1 {
+.massage .info-box .creater {
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -119,360 +111,34 @@ header .add-text .add-text2 {
   line-height: 50px;
   font-size: 20px;
   cursor: pointer;
-  border: 1px solid black;
 }
 
-.massage1 .info-box1 .creater1:hover {
+.massage .info-box .creater:hover {
   background-color: #8B4513;
 }
 
-.massage1 .info-box1 .date1 {
+.massage .info-box .date {
   font-size: 16px;
   margin-left: 8px;
 }
 
-.massage1 .text-box1 {
-  width: 600px;
-  margin-top: 15px;
-  margin-left: 15px;
-  height: 60px;
-  overflow: hidden;
+.massage .text-box {
+  margin: 10px;
   line-height: 20px;
+  width: 610px;
 }
 
-.massage1 .author1 {
+.massage .author {
   margin-left: 7px;
 }
 
-.massage1 .text1 {
+.massage .text {
   margin-top: 2px;
-  height: 40px;
-  width: 600px;
-  background-color: #EEE8AA;
-}
-
-.massage2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  height: 150px;
-  width: 780px;
-}
-
-.massage2 .info-box2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 150px;
-  height: 100px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  border-right: 2px solid black;
-}
-
-.massage2 .info-box2 .creater2 {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  background-color: #FFE4C4;
-  text-align: center;
-  line-height: 50px;
-  font-size: 20px;
-  cursor: pointer;
-  border: 1px solid black;
-}
-
-.massage2 .info-box2 .creater2:hover {
-  background-color: #8B4513;
-}
-
-.massage2 .info-box2 .date2 {
-  font-size: 16px;
-  margin-left: 8px;
-}
-
-.massage2 .text-box2 {
-  width: 600px;
-  margin-top: 15px;
-  margin-left: 15px;
-  height: 60px;
-  overflow: hidden;
-  line-height: 20px;
-}
-
-.massage2 .author2 {
-  margin-left: 7px;
-}
-
-.massage2 .text2 {
-  margin-top: 2px;
-  height: 40px;
-  width: 600px;
-  background-color: #EEE8AA;
-}
-
-.massage3 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  height: 150px;
-  width: 780px;
-}
-
-.massage3 .info-box3 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 150px;
-  height: 105px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  border-right: 2px solid black;
-}
-
-.massage3 .info-box3 .creater3 {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  background-color: #FFE4C4;
-  text-align: center;
-  line-height: 50px;
-  font-size: 20px;
-  cursor: pointer;
-  border: 1px solid black;
-}
-
-.massage3 .info-box3 .creater3:hover {
-  background-color: #8B4513;
-}
-
-.massage3 .info-box3 .date3 {
-  font-size: 16px;
-  margin-left: 8px;
-}
-
-.massage3 .text-box3 {
-  width: 600px;
-  margin-top: 15px;
-  margin-left: 15px;
-  height: 90px;
-  overflow: hidden;
-  line-height: 20px;
-}
-
-.massage3 .author3 {
-  margin-left: 7px;
-}
-
-.massage3 .text3 {
-  margin-top: 2px;
-  height: 60px;
-  width: 600px;
-  background-color: #EEE8AA;
-}
-
-.massage4 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  height: 150px;
-  width: 780px;
-}
-
-.massage4 .info-box4 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 150px;
-  height: 100px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  border-right: 2px solid black;
-}
-
-.massage4 .info-box4 .creater4 {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  background-color: #FFE4C4;
-  text-align: center;
-  line-height: 50px;
-  font-size: 20px;
-  cursor: pointer;
-  border: 1px solid black;
-}
-
-.massage4 .info-box4 .creater4:hover {
-  background-color: #8B4513;
-}
-
-.massage4 .info-box4 .date4 {
-  font-size: 16px;
-  margin-left: 8px;
-}
-
-.massage4 .text-box4 {
-  width: 600px;
-  margin-top: 15px;
-  margin-left: 15px;
-  height: 60px;
-  overflow: hidden;
-  line-height: 20px;
-}
-
-.massage4 .author4 {
-  margin-left: 7px;
-}
-
-.massage4 .text4 {
-  margin-top: 2px;
-  height: 40px;
-  width: 600px;
-  background-color: #EEE8AA;
-}
-
-.massage5 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  height: 150px;
-  width: 780px;
-}
-
-.massage5 .info-box5 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 150px;
-  height: 100px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  border-right: 2px solid black;
-}
-
-.massage5 .info-box5 .creater5 {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  background-color: #FFE4C4;
-  text-align: center;
-  line-height: 50px;
-  font-size: 20px;
-  cursor: pointer;
-  border: 1px solid black;
-}
-
-.massage5 .info-box5 .creater5:hover {
-  background-color: #8B4513;
-}
-
-.massage5 .info-box5 .date5 {
-  font-size: 16px;
-  margin-left: 8px;
-}
-
-.massage5 .text-box5 {
-  width: 600px;
-  margin-top: 15px;
-  margin-left: 15px;
-  height: 60px;
-  overflow: hidden;
-  line-height: 20px;
-}
-
-.massage5 .author5 {
-  margin-left: 7px;
-}
-
-.massage5 .text5 {
-  margin-top: 2px;
-  height: 60px;
-  width: 600px;
-  background-color: #EEE8AA;
-}
-
-.massage6 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  height: 150px;
-  width: 780px;
-}
-
-.massage6 .info-box6 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 150px;
-  height: 100px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  border-right: 2px solid black;
-}
-
-.massage6 .info-box6 .creater6 {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  background-color: #FFE4C4;
-  text-align: center;
-  line-height: 50px;
-  font-size: 20px;
-  cursor: pointer;
-  border: 1px solid black;
-}
-
-.massage6 .info-box6 .creater6:hover {
-  background-color: #8B4513;
-}
-
-.massage6 .info-box6 .date6 {
-  font-size: 16px;
-  margin-left: 8px;
-}
-
-.massage6 .text-box6 {
-  width: 600px;
-  margin-top: 15px;
-  margin-left: 15px;
-  height: 60px;
-  overflow: hidden;
-  line-height: 20px;
-}
-
-.massage6 .author6 {
-  margin-left: 7px;
-}
-
-.massage6 .text6 {
-  margin-top: 2px;
-  height: 40px;
-  width: 600px;
   background-color: #EEE8AA;
 }
 
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 6px;
 }
 
 ::-webkit-scrollbar-track-piece {
@@ -481,7 +147,7 @@ header .add-text .add-text2 {
 
 ::-webkit-scrollbar-thumb {
   height: 50px;
-  background-color: gray;
+  background-color: #8B4513;
   border-radius: 3px;
 }
 /*# sourceMappingURL=style.css.map */
